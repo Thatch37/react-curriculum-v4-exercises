@@ -10,7 +10,10 @@ export default function StudentWork() {
     <div>
       {/* add JSX here */}
       <h1>About Me</h1>
-      <p>Hi, I am Tyrell Hatcher and I'm currently learning about React</p>
+      <p>
+        Hi, I am Tyrell Hatcher and I'm currently learning about React at Code
+        The Dream.
+      </p>
       <ul>
         {hobbies.map((hobby) => (
           <li key={hobby}>{hobby}</li>
